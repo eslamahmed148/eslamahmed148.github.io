@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eslam Ahmed</title>
+    <style>
+      html {
+        font-size: 19px;
+      }
+      
+      body {
+        margin: 0;
+        font-size: 1rem;
+        font-family: monospace;
+      }
+      
+      ::selection {
+        text-shadow: none;
+        color: #000;
+        background: #FDD835;
+      }
+      
+      .text-center {
+        text-align: center;
+      }
+      
+      .mb-1 {
+        margin-bottom: 1rem;
+      }
+      
+      button {
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: inherit;
+        cursor: pointer;
+        padding: .6rem .8rem;
+        border: none;
+        border-radius: .4rem;
+        color: #FFF;
+        background-color: #000;
+        transition: opacity .2s ease-in-out;
+      }
+      
+      button:hover {
+        opacity: .6;
+      }
+      
+      html,
+      body,
+      #root {
+        height: 100%;
+      }
+      
+      .centered-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="centered-content">
+      <div class="text-center">
+        <div>🙏</div>
+        <h1>Eslam Ahmed</h1>
+        <div class="mb-1">Full Stack Engineer at Intoglow.</div>
+        <button>Let's work together!</button>
+      </div>
+    </div>
+    <script>
+      window.addEventListener("load", function onLoad() {
+        console.log("JS is working!");
+      });
+    </script>
+  </body>
+</html>
